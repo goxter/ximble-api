@@ -14,7 +14,7 @@ namespace XimbleApi.Models.Repository
             this.RepositoryContext = repositoryContext;
         }
 
-        public virtual IQueryable<T>  FindAll()
+        public IQueryable<T>  FindAll()
         {
             return this.RepositoryContext.Set<T>();
         }

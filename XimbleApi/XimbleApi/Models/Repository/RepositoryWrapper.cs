@@ -8,7 +8,7 @@ namespace XimbleApi.Models.Repository
         private IProductRepository _product;
         private IPurchaseOrderDetailRepository _purchaseOrderDetail;
 
-        public virtual IProductRepository Product
+        public IProductRepository Product
         {
             get
             {
