@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XimbleApi", "XimbleApi\XimbleApi.csproj", "{80BB3DDF-8AEB-42BC-92A8-526D167C031B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XimbleApi.Tests", "XimbleApi.Tests\XimbleApi.Tests.csproj", "{A8D665AA-5A1F-416C-BB90-572F3920D569}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80BB3DDF-8AEB-42BC-92A8-526D167C031B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BB3DDF-8AEB-42BC-92A8-526D167C031B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BB3DDF-8AEB-42BC-92A8-526D167C031B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BB3DDF-8AEB-42BC-92A8-526D167C031B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D665AA-5A1F-416C-BB90-572F3920D569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D665AA-5A1F-416C-BB90-572F3920D569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D665AA-5A1F-416C-BB90-572F3920D569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D665AA-5A1F-416C-BB90-572F3920D569}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C469335F-9BAF-4D28-988C-B1BA0C1B8488}
+	EndGlobalSection
+EndGlobal
