@@ -35,7 +35,7 @@
 
             public static void RegisterService(ContainerBuilder builder)
             {
-                builder.RegisterType<AdventureWorksContext>().InstancePerRequest();
+            builder.RegisterType<AdventureWorksContext>().SingleInstance();
 
                 builder.RegisterType<ProductRepository>()
                     .As<IProductRepository>().InstancePerRequest();
